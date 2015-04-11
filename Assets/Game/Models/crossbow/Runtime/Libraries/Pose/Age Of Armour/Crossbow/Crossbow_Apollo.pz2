@@ -1,0 +1,82 @@
+{
+	version
+	{
+		number 4.01
+	}
+	prop crossbowP:1
+	{
+		channels
+		{
+			translateX xTran
+			{
+				keys
+				{
+					k 0 -0.275876
+				}
+			}
+			translateY yTran
+			{
+				keys
+				{
+					k 0 0.610997
+				}
+			}
+			translateZ zTran
+			{
+				keys
+				{
+					k 0 0.182943
+				}
+			}
+			rotateX xRot
+			{
+				keys
+				{
+					k 0 -68.5048
+				}
+			}
+			rotateY yRot
+			{
+				keys
+				{
+					k 0 -27.7245
+				}
+			}
+			rotateZ zRot
+			{
+				keys
+				{
+					k 0 6.48521
+				}
+			}
+			scale scale
+			{
+				keys
+				{
+					k 0 1
+				}
+			}
+			scaleX xScale
+			{
+				keys
+				{
+					k 0 0.945132
+				}
+			}
+			scaleY yScale
+			{
+				keys
+				{
+					k 0 0.945132
+				}
+			}
+			scaleZ zScale
+			{
+				keys
+				{
+					k 0 0.945132
+				}
+			}
+		}
+	}
+}
