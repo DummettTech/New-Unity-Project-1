@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-
+using UnityEngine.UI;
 public class KingHealth : MonoBehaviour
 {
 	public int startingHealth = 100;
@@ -7,7 +7,7 @@ public class KingHealth : MonoBehaviour
 	public float sinkSpeed = 2.5f;
 	public int scoreValue = 10;
 	public AudioClip deathClip;
-	
+	public Slider kingHealthslider;
 	
 	Animator anim;
 	AudioSource enemyAudio;
@@ -46,7 +46,7 @@ public class KingHealth : MonoBehaviour
 		enemyAudio.Play ();
 		
 		currentHealth -= amount;
-		
+		kingHealthslider.value = currentHealth;
 		hitParticles.transform.position = hitPoint;
 		hitParticles.Play();
 		

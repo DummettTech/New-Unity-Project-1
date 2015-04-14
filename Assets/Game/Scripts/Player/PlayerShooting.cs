@@ -5,7 +5,7 @@ using System.Collections;
 public class PlayerShooting : MonoBehaviour
 {
 
-    public int damagePerShot = 20;
+    public static int damagePerShot;
     public float timeBetweenBullets = 0.3f;
     public float range = 100f;
 	public float ammo = 10;
@@ -46,7 +46,7 @@ public class PlayerShooting : MonoBehaviour
 		
 		{
 			damagePerShot = 60;
-		}
+		}	
 
 
 		if(Input.GetButton ("Fire1") && timer >= timeBetweenBullets && Time.timeScale != 0)
@@ -64,7 +64,7 @@ public class PlayerShooting : MonoBehaviour
             DisableEffects ();
         }
 
-		if (Input.GetButton ("Fire2")) 
+		if (Input.GetButton ("Fire2") || Input.GetKey(KeyCode.R)) 
 		{
 
 			audio.PlayOneShot(drawback);

@@ -2,7 +2,7 @@
 
 public class PlayerMovement : MonoBehaviour
 {
-	public float speed = 6f;
+	public static float speed;
 	public AudioClip movesound;
 	public bool debug;
 	Vector3 movement;

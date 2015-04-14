@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{FC9411EB-1B12-4154-0219-EEA7CBD09863}</ProjectGuid>
+	<ProjectGuid>{65DF78B6-68CC-94B6-8814-2DBFF4C533E1}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -67,6 +67,8 @@
      <Compile Include="Assets\Main Menu\Scripts\Flicker.cs" />
      <Compile Include="Assets\Main Menu\Scripts\MenuScript.cs" />
      <Compile Include="Assets\PauseManager.cs" />
+     <Compile Include="Assets\ren.cs" />
+     <Compile Include="Assets\upgrades.cs" />
      <None Include="Assets\Game\Shaders\Rim Lit Bumped Specular.shader" />
      <None Include="Assets\Game\Fonts\LuckiestGuy\LICENSE.txt" />
  <Reference Include="UnityEngine.UI">
